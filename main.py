@@ -48,6 +48,10 @@ class ToolBar(QWidget):
         current_time = QTime.currentTime()
         label_time = current_time.toString('hh:mm')
         self.label.setText(label_time)
+        
+    def keyPressEvent(self, e):
+        if e.key() == Qt.Key_Escape:
+            self.close()
 
       
 if __name__ == '__main__':
