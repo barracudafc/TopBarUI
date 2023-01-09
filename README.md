@@ -1,8 +1,12 @@
 # TopBarUI
-Welcome to TopBarUI v 0.0.1
+Welcome to TopBarUI 0.0.1v
 This is a simple project to create a simple TopBarTool
 like that of iphone 'Dynamic Island'.
 
 sorry for my code :-)
 
 I'm learning...
+
+# Requirements
+
+`pip install PyQt5 `
