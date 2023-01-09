@@ -11,5 +11,10 @@ I'm learning...
 
 `pip install PyQt5 `
 
+# TODO
+Add apps notification
+Add apps icon
+Fix time loading
+
 # Screenshot
 !['Error'](/screenshot/TopBarUI.jpg)
