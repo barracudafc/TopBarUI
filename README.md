@@ -16,7 +16,7 @@ I'm learning...
 - add apps notification
 - add apps icon
 - add sptify widget using API
-- Fix time loading
+- Fix time loading --> FIXED
 
 # Screenshot
 !['Error'](/screenshot/TopBarUI.jpg)
