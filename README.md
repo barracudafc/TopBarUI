@@ -12,4 +12,4 @@ I'm learning...
 `pip install PyQt5 `
 
 # Screenshot
-!['Error'](/screenshot/TopBarUI.py)
+!['Error'](/screenshot/TopBarUI.jpg)
