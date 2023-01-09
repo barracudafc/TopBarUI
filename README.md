@@ -1,5 +1,5 @@
 # TopBarUI
-Welcome to TopBarUI 0.0.1v
+> Welcome to TopBarUI 0.0.1v
 This is a simple project to create a simple TopBarTool
 like that of iphone 'Dynamic Island'.
 
@@ -12,9 +12,10 @@ I'm learning...
 `pip install PyQt5 `
 
 # TODO
-Add apps notification
-Add apps icon
-Fix time loading
+- add apps notification
+- add apps icon
+- add sptify widget using API
+- Fix time loading
 
 # Screenshot
 !['Error'](/screenshot/TopBarUI.jpg)
