@@ -12,6 +12,7 @@ I'm learning...
 `pip install PyQt5 `
 
 # TODO
+- add animations
 - add apps notification
 - add apps icon
 - add sptify widget using API
