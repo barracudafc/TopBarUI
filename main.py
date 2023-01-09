@@ -42,7 +42,7 @@ class ToolBar(QWidget):
 
         timer = QTimer(self)
         timer.timeout.connect(self.showTime)
-        timer.start(1000)
+        timer.start(10)
         
     def showTime(self):
         current_time = QTime.currentTime()
