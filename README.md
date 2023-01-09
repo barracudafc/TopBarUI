@@ -1,5 +1,5 @@
 # TopBarUI
-> Welcome to TopBarUI 0.0.1v
+Welcome to TopBarUI 0.0.1v
 This is a simple project to create a simple TopBarTool
 like that of iphone 'Dynamic Island'.
 
