@@ -1,6 +1,7 @@
 from PyQt5.QtCore import *
 from PyQt5.QtGui import * 
-from PyQt5.QtWidgets import * 
+from PyQt5.QtWidgets import *
+import psutil 
 import sys
 
 class ToolBar(QWidget):
@@ -43,6 +44,8 @@ class ToolBar(QWidget):
         timer = QTimer(self)
         timer.timeout.connect(self.showTime)
         timer.start(10)
+
+        self.checkIfProcessRunning('spotify')
         
     def showTime(self):
         current_time = QTime.currentTime()
@@ -53,7 +56,19 @@ class ToolBar(QWidget):
         if e.key() == Qt.Key_Escape:
             self.close()
 
-      
+    def checkIfProcessRunning(self,processName):
+        for proc in psutil.process_iter():
+            try:
+                if processName.lower() in proc.name().lower():
+                    labelImg = QLabel(self)
+                    pixmap = QPixmap('spotify.ico')
+                    labelImg.setPixmap(pixmap)
+                    labelImg.setGeometry(QRect(15, 15, 18, 18))
+                    return True
+            except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+                pass
+        return False;
+          
 if __name__ == '__main__':
     app = QApplication([])
     window = ToolBar()
