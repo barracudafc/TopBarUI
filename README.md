@@ -16,3 +16,7 @@ like iphone 'Dynamic Island'.
 
 # Screenshot
 !['Error'](/screenshot/TopBarUI.jpg)
+
+## Active Process
+!['Error'](/screenshot/ActiveProcess.png)
+
